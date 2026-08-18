@@ -1,0 +1,25 @@
+# Android / Gradle build output
+/app/build/
+/build/
+.gradle/
+*.apk
+*.aab
+
+# 机器相关，每台开发机不同，不应提交
+local.properties
+
+# release 签名密钥与密码 —— 绝对不能上传，一旦泄露任何人都能伪造"官方更新"覆盖安装
+/keystore.properties
+/keystore/
+
+# 语音识别 + 标点模型（约 305MB），单文件超过 GitHub 100MB 限制，也不属于源代码；
+# 获取方式见 README.md「从源码编译」
+/app/src/main/assets/model/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# 开发过程记录，内容含个人使用细节，仅本人保留，不进入公开仓库
+/DEVELOPMENT_REPORT.md
