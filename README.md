@@ -55,3 +55,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 ## 技术栈
 
 Kotlin · Android `MediaProjection` · [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)（paraformer-zh 中文语音识别 + ct-transformer 标点恢复，均为 int8 量化模型，纯 CPU 推理）
+
+## 许可证
+
+本仓库原创部分代码使用 [MIT License](./LICENSE)。
+
+`app/src/main/java/com/k2fsa/sherpa/onnx/`（Kotlin 封装源码）和 `app/src/main/jniLibs/`（预编译 native 库）来自 [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) 项目，遵循其原始的 Apache License 2.0，不受本仓库 MIT 许可证约束。
